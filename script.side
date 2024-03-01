@@ -1,0 +1,93 @@
+{
+  "id": "b59db7b0-74a7-4e39-a8af-d7b75d864f22",
+  "version": "3.19.0",
+  "name": "DownloadLatestPDF",
+  "url": "https://www.sec.gov/",
+  "tests": [{
+    "id": "4beeb1ab-8fbf-40dc-9e44-4f78bb65e1f8",
+    "name": "DownloadLatestPDF",
+    "commands": [{
+      "id": "a3e15fd1-75dc-4c28-b2a2-5d0a9ad3b07a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "cb3d9a24-71fc-445a-bec4-11c94b9727fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Filings",
+      "value": ""
+    }, {
+      "id": "1f03d02e-e972-48aa-bc6b-19dc6ac9c05a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search for Company Filings",
+      "value": ""
+    }, {
+      "id": "349f8eb5-075f-46bb-84e8-c4b4aa9714e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#type-a > label:nth-child(4) > input",
+      "value": ""
+    }, {
+      "id": "cc264a9d-bc7b-4d58-83b1-b7b57a695ea3",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "value": "Apple Inc."
+    }, {
+      "id": "8be8a5b4-128d-4b62-8f89-0d3de9ec0a5e",
+      "comment": "",
+      "command": "click",
+      "target": "name=type",
+      "value": ""
+    }, {
+      "id": "38c24d19-b59e-4af6-af5d-76ab1081a1a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#search-button",
+      "value": ""
+    }, {
+      "id": "f85b8397-36ec-4d5e-a305-14a3ff45f527",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=10-K",
+      "value": ""
+    }, {
+      "id": "1a1ac656-c35c-49c7-b111-14e00b057fa5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interactive Data",
+      "value": ""
+    }, {
+      "id": "eb4ee934-6b15-4af1-9517-3e4ee0a7e244",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Excel Document",
+      "value": ""
+    }, {
+      "id": "0ff93c15-d33a-41f3-b4b1-dcc5f83517f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=here",
+      "value": ""
+    }, {
+      "id": "e0b4c5bb-99fd-4411-ba39-cde043a079d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9a9efc3-1061-4e26-8ee9-437682ff4740",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300
+  }],
+  "urls": [],
+  "plugins": []
+}
+
